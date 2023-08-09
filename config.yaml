@@ -1,6 +1,6 @@
 path: /content/repository_name
-train: /data/images
-val: /data/images
+train: /content/repository_name/data/images
+val: /content/repository_name/data/images
 
 names:
   0: no passing
