@@ -3,7 +3,7 @@ import shutil
 
 # Set the paths for the source and destination folders
 source_folder = 'data/labels'
-destination_folder = 'data/train'
+destination_folder = 'data/test'
 
 # Get a list of all .jpg files in the destination folder (without extensions)
 destination_jpg_files = [os.path.splitext(file)[0] for file in os.listdir(destination_folder) if file.lower().endswith('.jpg')]
