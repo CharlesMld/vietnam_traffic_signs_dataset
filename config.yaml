@@ -1,7 +1,8 @@
-path: /content/repository_name
-train: /content/repository_name/data/images
-val: /content/repository_name/data/images
-
+path: /content/ordered_dataset
+train: /content/ordered_dataset/train
+val: /content/ordered_dataset/val
+test: /content/ordered_dataset/test
+nc: 16
 names:
   0: no passing
   1: stop
@@ -19,4 +20,3 @@ names:
   13: pedestrians (warning)
   14: children crossing
   15: cross with priority road
-  
